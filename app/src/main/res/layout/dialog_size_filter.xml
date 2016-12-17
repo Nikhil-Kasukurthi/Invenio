@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:padding="15dp">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        android:fitsSystemWindows="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/ic_rating"/>
+
+    <org.adw.library.widgets.discreteseekbar.DiscreteSeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/size_seek"
+        app:dsb_min="0"
+        app:dsb_max="20"
+        app:dsb_trackColor="@color/colorAccent"
+        app:dsb_indicatorColor="@color/colorAccent"
+        app:dsb_progressColor="@color/colorAccent"
+        app:dsb_rippleColor="@color/colorAccent"
+        />
+
+</LinearLayout>

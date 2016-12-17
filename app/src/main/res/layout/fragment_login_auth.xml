@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<FrameLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="200dp"
+        android:src="@drawable/map"
+        android:scaleType="center"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/login"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.35" />
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="90dip"
+        android:layout_gravity="center"
+        android:src="@drawable/invenio"
+        />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2" />
+
+    <EditText
+        android:id="@+id/emailAuth"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dip"
+        android:layout_marginRight="35dip"
+        android:background="@color/textViewColor"
+        android:ems="10"
+        android:textSize = "20sp"
+        android:hint="@string/email"
+        android:includeFontPadding="false"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:textColorHint="#4DFFFFFF"
+        android:paddingLeft="20dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.04" />
+
+    <EditText
+        android:id="@+id/passAuth"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dip"
+        android:layout_marginRight="35dip"
+        android:background="@color/textViewColor"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:textColorHint="#4DFFFFFF"
+        android:textSize = "20sp"
+        android:paddingLeft="20dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15" />
+        <Button
+        android:id="@+id/loginButton"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="35dip"
+        android:layout_marginRight="35dip"
+        android:background="@color/colorAccent"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+            android:stateListAnimator="@anim/raise"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5" />
+
+</LinearLayout>
+    </FrameLayout>

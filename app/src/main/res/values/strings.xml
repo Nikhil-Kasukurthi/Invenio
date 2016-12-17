@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Smile</string>
+    <string name="userName">User Name</string>
+    <string name="submit">  Submit  </string>
+    <string name="email">Email ID</string>
+    <string name="createAcc"> Create new Account </string>
+    <string name="newUser">New User</string>
+    <string name="signUP">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="loginHint">Username / E-Mail ID</string>
+    <string name="password">Password</string>
+    <string name="passwordRe">Confirm Password</string>
+    <string name="facebook_app_id">1058972410815705</string>
+    <string name="discover">Discover</string>
+    <string name="travel">Travel</string>
+    <string name="search">Search</string>
+    <string name="locationSearch">Enter location</string>
+    <string name="rating">Rating</string>
+    <string name="ratingChange">Change Rating</string>
+    <string name="done">Done</string>
+    <string name="google_app_id">AIzaSyCqn0nVHGPbAVhX52zfhYGdYqSckpDoU3E</string>
+    <string name="bangalore">Bangalore</string>
+    <string name="select">Select</string>
+
+    <string name="where">Where?</string>
+    <string name="hotel">Hotel</string>
+    <string name="visit">Places to visit</string>
+    <string name="restaurant">Restaurants</string>
+</resources>

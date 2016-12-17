@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1c2333</color>
+    <color name="colorPrimaryTranslucent">#2b364e</color>
+    <color name="colorPrimaryDark">#161c29</color>
+    <color name="colorAccent">#2c68a8</color>
+    <color name="textViewColor">#212734</color>
+
+    <color name="hotelTextView">#424242</color>
+    <color name="distanceTextView">#757575</color>
+
+
+    <color name="red">#ffff0000</color>
+    <color name="black">#000000</color>
+    <color name="grey">#e1d7d7</color>
+    <color name="white">#FFFFFF</color>
+    <color name="navbarBackground">#FFB74D</color>
+    <color name="navbarHeader">#FFA726</color>
+    <color name="divider">#1556a1</color>
+
+    <color name="blue1">#2196f3</color>
+    <color name="blue2">#1e88e5</color>
+    <color name="blue3">#1976d2</color>
+    <color name="blue4">#1565c0</color>
+
+
+
+        
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:weightSum="1">
+    <include
+        android:id="@+id/toolbar_place"
+        layout="@layout/toolbar_place_visit"
+        android:fitsSystemWindows="true" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/place_visit_list"
+            android:background="?android:attr/selectableItemBackground"
+            android:dividerHeight="0dp"
+            android:divider="@null"/>
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/done_place_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.1"
+        android:text="@string/done"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        />
+</LinearLayout>

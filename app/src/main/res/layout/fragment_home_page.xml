@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    >
+
+    <include
+        android:id="@+id/toolbar_home"
+        layout="@layout/toolbar"
+        android:fitsSystemWindows="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/rating"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:scaleType="center"
+                android:src="@mipmap/ic_rating"
+                android:background="@color/colorAccent"
+                />
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+            <ImageButton
+                android:id="@+id/location"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:src="@mipmap/ic_pin"
+                android:background="@color/colorAccent"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+            <ImageButton
+                android:id="@+id/age"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:src="@mipmap/ic_age"
+                android:background="@color/colorAccent"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/divider" />
+            <ImageButton
+                android:id="@+id/size"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.25"
+                android:src="@mipmap/ic_size"
+                android:background="@color/colorAccent"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.899">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:layout_weight="0.0010">
+
+        <ImageButton
+            android:id="@+id/snap"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+android:layout_gravity="center"
+            android:src="@mipmap/ic_snap"
+
+            android:background="@color/colorPrimary"
+            android:text="@string/discover" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@color/divider" />
+        <ImageButton
+            android:id="@+id/travel_button"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="@string/travel"
+            android:src="@mipmap/ic_travel"
+
+            android:background="@color/colorPrimary"
+            />
+    </LinearLayout>
+
+</LinearLayout>

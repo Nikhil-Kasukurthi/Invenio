@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include
+        android:id="@+id/toolbar_iti"
+        layout="@layout/toolbar"
+        android:fitsSystemWindows="true" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/iti_list"
+        android:dividerHeight="0dp"
+        android:divider="@null"
+        android:padding="5dp"
+        android:background="?android:attr/selectableItemBackground"
+        />
+</LinearLayout>
